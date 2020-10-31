@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Utils/Utils.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Protocol/Protocol.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JE/JE.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SeongM/SeongM.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SM/SM.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IH/IH.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TW/TW.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SS/SS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JH/JH.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SP/SP.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:Algorithm.xcodeproj">
+   </FileRef>
+</Workspace>
