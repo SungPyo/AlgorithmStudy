@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD05C9AB254DCD8D00E71A88 /* SeongM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05C9A9254DCD8D00E71A88 /* SeongM.swift */; };
+		DD05C9CB254DCE1000E71A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD05C9AA254DCD8D00E71A88 /* Main.storyboard */; };
 		DDB6ED71254C89C000156B01 /* SeongM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6ED67254C89C000156B01 /* SeongM.framework */; };
 		DDB6ED76254C89C000156B01 /* SeongMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6ED75254C89C000156B01 /* SeongMTests.swift */; };
 		DDB6ED78254C89C000156B01 /* SeongM.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB6ED6A254C89C000156B01 /* SeongM.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD05C9A9254DCD8D00E71A88 /* SeongM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeongM.swift; sourceTree = "<group>"; };
+		DD05C9AA254DCD8D00E71A88 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DDB6ED67254C89C000156B01 /* SeongM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SeongM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB6ED6A254C89C000156B01 /* SeongM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeongM.h; sourceTree = "<group>"; };
 		DDB6ED6B254C89C000156B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 			children = (
 				DDB6ED6A254C89C000156B01 /* SeongM.h */,
 				DDB6ED6B254C89C000156B01 /* Info.plist */,
+				DD05C9A9254DCD8D00E71A88 /* SeongM.swift */,
+				DD05C9AA254DCD8D00E71A88 /* Main.storyboard */,
 			);
 			path = SeongM;
 			sourceTree = "<group>";
@@ -177,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD05C9CB254DCE1000E71A88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD05C9AB254DCD8D00E71A88 /* SeongM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +397,7 @@
 		DDB6ED7F254C89C000156B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84LEHU55L;
 				INFOPLIST_FILE = SeongMTests/Info.plist;
@@ -407,6 +416,7 @@
 		DDB6ED80254C89C000156B01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84LEHU55L;
 				INFOPLIST_FILE = SeongMTests/Info.plist;

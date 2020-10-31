@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD05C9B2254DCD9300E71A88 /* JE.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05C9B0254DCD9200E71A88 /* JE.swift */; };
+		DD05C9D0254DCE2900E71A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD05C9B1254DCD9300E71A88 /* Main.storyboard */; };
 		DDB6ED97254C89DF00156B01 /* JE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6ED8D254C89DF00156B01 /* JE.framework */; };
 		DDB6ED9C254C89DF00156B01 /* JETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6ED9B254C89DF00156B01 /* JETests.swift */; };
 		DDB6ED9E254C89DF00156B01 /* JE.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB6ED90254C89DF00156B01 /* JE.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD05C9B0254DCD9200E71A88 /* JE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JE.swift; sourceTree = "<group>"; };
+		DD05C9B1254DCD9300E71A88 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DDB6ED8D254C89DF00156B01 /* JE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB6ED90254C89DF00156B01 /* JE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JE.h; sourceTree = "<group>"; };
 		DDB6ED91254C89DF00156B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 			children = (
 				DDB6ED90254C89DF00156B01 /* JE.h */,
 				DDB6ED91254C89DF00156B01 /* Info.plist */,
+				DD05C9B0254DCD9200E71A88 /* JE.swift */,
+				DD05C9B1254DCD9300E71A88 /* Main.storyboard */,
 			);
 			path = JE;
 			sourceTree = "<group>";
@@ -177,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD05C9D0254DCE2900E71A88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD05C9B2254DCD9300E71A88 /* JE.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +397,7 @@
 		DDB6EDA5254C89DF00156B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84LEHU55L;
 				INFOPLIST_FILE = JETests/Info.plist;
@@ -407,6 +416,7 @@
 		DDB6EDA6254C89DF00156B01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84LEHU55L;
 				INFOPLIST_FILE = JETests/Info.plist;

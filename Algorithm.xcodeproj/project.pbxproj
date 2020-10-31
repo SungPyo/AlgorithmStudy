@@ -13,22 +13,46 @@
 		DDAC0CD8254C84D50041AEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAC0CD6254C84D50041AEE4 /* Main.storyboard */; };
 		DDAC0CDA254C84D60041AEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAC0CD9254C84D60041AEE4 /* Assets.xcassets */; };
 		DDAC0CDD254C84D60041AEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAC0CDB254C84D60041AEE4 /* LaunchScreen.storyboard */; };
-		DDB6EC95254C882800156B01 /* SP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6EC94254C882800156B01 /* SP.framework */; };
-		DDB6EC96254C882800156B01 /* SP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6EC94254C882800156B01 /* SP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DDB6ECC1254C88C900156B01 /* JH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6ECC0254C88C900156B01 /* JH.framework */; };
-		DDB6ECC2254C88C900156B01 /* JH.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6ECC0254C88C900156B01 /* JH.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DDBDA727254DC7E700AB5851 /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDA726254DC7E700AB5851 /* Members.swift */; };
+		DDCDEC0A254DDBB300683E21 /* IH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC00254DDBB300683E21 /* IH.framework */; };
+		DDCDEC0B254DDBB300683E21 /* IH.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC00254DDBB300683E21 /* IH.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDCDEC0C254DDBB300683E21 /* JE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC01254DDBB300683E21 /* JE.framework */; };
+		DDCDEC0D254DDBB300683E21 /* JE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC01254DDBB300683E21 /* JE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDCDEC0E254DDBB300683E21 /* JH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC02254DDBB300683E21 /* JH.framework */; };
+		DDCDEC0F254DDBB300683E21 /* JH.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC02254DDBB300683E21 /* JH.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDCDEC10254DDBB300683E21 /* Protocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC03254DDBB300683E21 /* Protocol.framework */; };
+		DDCDEC11254DDBB300683E21 /* Protocol.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC03254DDBB300683E21 /* Protocol.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDCDEC12254DDBB300683E21 /* SeongM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC04254DDBB300683E21 /* SeongM.framework */; };
+		DDCDEC13254DDBB300683E21 /* SeongM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC04254DDBB300683E21 /* SeongM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDCDEC14254DDBB300683E21 /* SM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC05254DDBB300683E21 /* SM.framework */; };
+		DDCDEC15254DDBB300683E21 /* SM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC05254DDBB300683E21 /* SM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDCDEC16254DDBB300683E21 /* SP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC06254DDBB300683E21 /* SP.framework */; };
+		DDCDEC17254DDBB300683E21 /* SP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC06254DDBB300683E21 /* SP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDCDEC18254DDBB300683E21 /* SS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC07254DDBB300683E21 /* SS.framework */; };
+		DDCDEC19254DDBB300683E21 /* SS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC07254DDBB300683E21 /* SS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDCDEC1A254DDBB300683E21 /* TW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC08254DDBB300683E21 /* TW.framework */; };
+		DDCDEC1B254DDBB300683E21 /* TW.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC08254DDBB300683E21 /* TW.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDCDEC1C254DDBB300683E21 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC09254DDBB300683E21 /* Utils.framework */; };
+		DDCDEC1D254DDBB300683E21 /* Utils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDCDEC09254DDBB300683E21 /* Utils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DDB6EC97254C882800156B01 /* Embed Frameworks */ = {
+		DDCDEC1E254DDBB400683E21 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DDB6ECC2254C88C900156B01 /* JH.framework in Embed Frameworks */,
-				DDB6EC96254C882800156B01 /* SP.framework in Embed Frameworks */,
+				DDCDEC11254DDBB300683E21 /* Protocol.framework in Embed Frameworks */,
+				DDCDEC0B254DDBB300683E21 /* IH.framework in Embed Frameworks */,
+				DDCDEC0F254DDBB300683E21 /* JH.framework in Embed Frameworks */,
+				DDCDEC13254DDBB300683E21 /* SeongM.framework in Embed Frameworks */,
+				DDCDEC15254DDBB300683E21 /* SM.framework in Embed Frameworks */,
+				DDCDEC17254DDBB300683E21 /* SP.framework in Embed Frameworks */,
+				DDCDEC1D254DDBB300683E21 /* Utils.framework in Embed Frameworks */,
+				DDCDEC19254DDBB300683E21 /* SS.framework in Embed Frameworks */,
+				DDCDEC0D254DDBB300683E21 /* JE.framework in Embed Frameworks */,
+				DDCDEC1B254DDBB300683E21 /* TW.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,6 +60,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DD05C9F7254DCEFB00E71A88 /* IH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD05C9F8254DCEFB00E71A88 /* JE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD05C9F9254DCEFB00E71A88 /* Protocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Protocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD05C9FA254DCEFB00E71A88 /* SeongM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SeongM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD05C9FB254DCEFB00E71A88 /* SM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD05C9FC254DCEFB00E71A88 /* SS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD05C9FD254DCEFB00E71A88 /* TW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD05C9FE254DCEFB00E71A88 /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAC0CCD254C84D50041AEE4 /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAC0CD0254C84D50041AEE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDAC0CD2254C84D50041AEE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +83,16 @@
 		DDB6EC94254C882800156B01 /* SP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB6ECC0254C88C900156B01 /* JH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBDA726254DC7E700AB5851 /* Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
+		DDCDEC00254DDBB300683E21 /* IH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCDEC01254DDBB300683E21 /* JE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCDEC02254DDBB300683E21 /* JH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCDEC03254DDBB300683E21 /* Protocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Protocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCDEC04254DDBB300683E21 /* SeongM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SeongM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCDEC05254DDBB300683E21 /* SM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCDEC06254DDBB300683E21 /* SP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCDEC07254DDBB300683E21 /* SS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCDEC08254DDBB300683E21 /* TW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCDEC09254DDBB300683E21 /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +100,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDB6ECC1254C88C900156B01 /* JH.framework in Frameworks */,
-				DDB6EC95254C882800156B01 /* SP.framework in Frameworks */,
+				DDCDEC10254DDBB300683E21 /* Protocol.framework in Frameworks */,
+				DDCDEC0A254DDBB300683E21 /* IH.framework in Frameworks */,
+				DDCDEC0E254DDBB300683E21 /* JH.framework in Frameworks */,
+				DDCDEC12254DDBB300683E21 /* SeongM.framework in Frameworks */,
+				DDCDEC14254DDBB300683E21 /* SM.framework in Frameworks */,
+				DDCDEC16254DDBB300683E21 /* SP.framework in Frameworks */,
+				DDCDEC1C254DDBB300683E21 /* Utils.framework in Frameworks */,
+				DDCDEC18254DDBB300683E21 /* SS.framework in Frameworks */,
+				DDCDEC0C254DDBB300683E21 /* JE.framework in Frameworks */,
+				DDCDEC1A254DDBB300683E21 /* TW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +171,24 @@
 		DDB6EC93254C882800156B01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DDCDEC00254DDBB300683E21 /* IH.framework */,
+				DDCDEC01254DDBB300683E21 /* JE.framework */,
+				DDCDEC02254DDBB300683E21 /* JH.framework */,
+				DDCDEC03254DDBB300683E21 /* Protocol.framework */,
+				DDCDEC04254DDBB300683E21 /* SeongM.framework */,
+				DDCDEC05254DDBB300683E21 /* SM.framework */,
+				DDCDEC06254DDBB300683E21 /* SP.framework */,
+				DDCDEC07254DDBB300683E21 /* SS.framework */,
+				DDCDEC08254DDBB300683E21 /* TW.framework */,
+				DDCDEC09254DDBB300683E21 /* Utils.framework */,
+				DD05C9F7254DCEFB00E71A88 /* IH.framework */,
+				DD05C9F8254DCEFB00E71A88 /* JE.framework */,
+				DD05C9F9254DCEFB00E71A88 /* Protocol.framework */,
+				DD05C9FA254DCEFB00E71A88 /* SeongM.framework */,
+				DD05C9FB254DCEFB00E71A88 /* SM.framework */,
+				DD05C9FC254DCEFB00E71A88 /* SS.framework */,
+				DD05C9FD254DCEFB00E71A88 /* TW.framework */,
+				DD05C9FE254DCEFB00E71A88 /* Utils.framework */,
 				DDB6ECC0254C88C900156B01 /* JH.framework */,
 				DDB6EC94254C882800156B01 /* SP.framework */,
 			);
@@ -137,7 +205,7 @@
 				DDAC0CC9254C84D50041AEE4 /* Sources */,
 				DDAC0CCA254C84D50041AEE4 /* Frameworks */,
 				DDAC0CCB254C84D50041AEE4 /* Resources */,
-				DDB6EC97254C882800156B01 /* Embed Frameworks */,
+				DDCDEC1E254DDBB400683E21 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

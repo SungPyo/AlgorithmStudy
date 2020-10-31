@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     private func showController(member: String) {
         let framework = Bundle.allFrameworks.compactMap{$0.classNamed("\(member).\(member)") as? Embedded.Type}.first
-        guard let controller = framework?.getController() else { return }
+        guard let controller = framework?.getController() else { return print("없어?")}
         navigationController?.pushViewController(controller, animated: true)
     }
 }

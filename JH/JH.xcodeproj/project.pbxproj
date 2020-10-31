@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD05C977254DCCDE00E71A88 /* JH.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05C975254DCCDE00E71A88 /* JH.swift */; };
+		DD05C98E254DCD6600E71A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD05C976254DCCDE00E71A88 /* Main.storyboard */; };
 		DDB6ECAE254C88B700156B01 /* JH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6ECA4254C88B700156B01 /* JH.framework */; };
 		DDB6ECB3254C88B700156B01 /* JHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6ECB2254C88B700156B01 /* JHTests.swift */; };
 		DDB6ECB5254C88B700156B01 /* JH.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB6ECA7254C88B700156B01 /* JH.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD05C975254DCCDE00E71A88 /* JH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JH.swift; sourceTree = "<group>"; };
+		DD05C976254DCCDE00E71A88 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DDB6ECA4254C88B700156B01 /* JH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB6ECA7254C88B700156B01 /* JH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JH.h; sourceTree = "<group>"; };
 		DDB6ECA8254C88B700156B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 			children = (
 				DDB6ECA7254C88B700156B01 /* JH.h */,
 				DDB6ECA8254C88B700156B01 /* Info.plist */,
+				DD05C975254DCCDE00E71A88 /* JH.swift */,
+				DD05C976254DCCDE00E71A88 /* Main.storyboard */,
 			);
 			path = JH;
 			sourceTree = "<group>";
@@ -177,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD05C98E254DCD6600E71A88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD05C977254DCCDE00E71A88 /* JH.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +397,7 @@
 		DDB6ECBC254C88B700156B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84LEHU55L;
 				INFOPLIST_FILE = JHTests/Info.plist;
@@ -407,6 +416,7 @@
 		DDB6ECBD254C88B700156B01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84LEHU55L;
 				INFOPLIST_FILE = JHTests/Info.plist;

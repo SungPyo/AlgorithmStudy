@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD05C993254DCD7900E71A88 /* SS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05C992254DCD7900E71A88 /* SS.swift */; };
+		DD05C9B7254DCDA900E71A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD05C991254DCD7900E71A88 /* Main.storyboard */; };
 		DDB6ECD9254C893C00156B01 /* SS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6ECCF254C893C00156B01 /* SS.framework */; };
 		DDB6ECDE254C893C00156B01 /* SSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6ECDD254C893C00156B01 /* SSTests.swift */; };
 		DDB6ECE0254C893C00156B01 /* SS.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB6ECD2254C893C00156B01 /* SS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD05C991254DCD7900E71A88 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DD05C992254DCD7900E71A88 /* SS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SS.swift; sourceTree = "<group>"; };
 		DDB6ECCF254C893C00156B01 /* SS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB6ECD2254C893C00156B01 /* SS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SS.h; sourceTree = "<group>"; };
 		DDB6ECD3254C893C00156B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 			children = (
 				DDB6ECD2254C893C00156B01 /* SS.h */,
 				DDB6ECD3254C893C00156B01 /* Info.plist */,
+				DD05C992254DCD7900E71A88 /* SS.swift */,
+				DD05C991254DCD7900E71A88 /* Main.storyboard */,
 			);
 			path = SS;
 			sourceTree = "<group>";
@@ -177,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD05C9B7254DCDA900E71A88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD05C993254DCD7900E71A88 /* SS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +397,7 @@
 		DDB6ECE7254C893C00156B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84LEHU55L;
 				INFOPLIST_FILE = SSTests/Info.plist;
@@ -407,6 +416,7 @@
 		DDB6ECE8254C893C00156B01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84LEHU55L;
 				INFOPLIST_FILE = SSTests/Info.plist;
