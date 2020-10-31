@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     private func showController(member: String) {
-        let framework = Bundle.allFrameworks.compactMap{$0.classNamed("\(member).\(member)") as? Embedded.Type}.first
-        guard let controller = framework?.getController() else { return print("없어?")}
+        let framework = Bundle.allFrameworks.compactMap{$0.classNamed("Protocol.BaseVC") as? BaseVC.Type}.first
+        guard let controller = framework?.getController(member) else { return print("없어?")}
         navigationController?.pushViewController(controller, animated: true)
     }
 }

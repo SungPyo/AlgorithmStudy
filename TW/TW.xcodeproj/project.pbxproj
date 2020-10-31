@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD05C998254DCD7F00E71A88 /* TW.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05C996254DCD7F00E71A88 /* TW.swift */; };
-		DD05C9BC254DCDD400E71A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD05C997254DCD7F00E71A88 /* Main.storyboard */; };
 		DDB6ECFF254C894B00156B01 /* TW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6ECF5254C894B00156B01 /* TW.framework */; };
 		DDB6ED04254C894B00156B01 /* TWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6ED03254C894B00156B01 /* TWTests.swift */; };
 		DDB6ED06254C894B00156B01 /* TW.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB6ECF8254C894B00156B01 /* TW.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,8 +23,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DD05C996254DCD7F00E71A88 /* TW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TW.swift; sourceTree = "<group>"; };
-		DD05C997254DCD7F00E71A88 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DDB6ECF5254C894B00156B01 /* TW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB6ECF8254C894B00156B01 /* TW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TW.h; sourceTree = "<group>"; };
 		DDB6ECF9254C894B00156B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,8 +73,6 @@
 			children = (
 				DDB6ECF8254C894B00156B01 /* TW.h */,
 				DDB6ECF9254C894B00156B01 /* Info.plist */,
-				DD05C996254DCD7F00E71A88 /* TW.swift */,
-				DD05C997254DCD7F00E71A88 /* Main.storyboard */,
 			);
 			path = TW;
 			sourceTree = "<group>";
@@ -183,7 +177,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD05C9BC254DCDD400E71A88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +194,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD05C998254DCD7F00E71A88 /* TW.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +389,6 @@
 		DDB6ED0D254C894B00156B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84LEHU55L;
 				INFOPLIST_FILE = TWTests/Info.plist;
@@ -416,7 +407,6 @@
 		DDB6ED0E254C894B00156B01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84LEHU55L;
 				INFOPLIST_FILE = TWTests/Info.plist;
