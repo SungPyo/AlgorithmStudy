@@ -10,6 +10,7 @@ import Foundation
 enum ExemList: String, CaseIterable {
     case 테스트입니다_클릭해도_뭐_없어요
     case 서울에서김서방찾기
+    case 모의고사
     
     func start(bundleID: String) {
         let bundle = Bundle(identifier: "com.castielticket.\(bundleID)")
