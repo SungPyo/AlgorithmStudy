@@ -11,6 +11,8 @@
 		DD505D57254C85CD002B87FE /* SPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD505D56254C85CD002B87FE /* SPTests.swift */; };
 		DD505D59254C85CD002B87FE /* SP.h in Headers */ = {isa = PBXBuildFile; fileRef = DD505D4B254C85CC002B87FE /* SP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD61DDAE254DEA7A00C320A8 /* 서울에서김서방찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61DDAD254DEA7A00C320A8 /* 서울에서김서방찾기.swift */; };
+		DD90115A2552CAB300A2146A /* 모의고사.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9011592552CAB300A2146A /* 모의고사.swift */; };
+		DD90116F2552D56B00A2146A /* 배열합치기.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90116E2552D56B00A2146A /* 배열합치기.swift */; };
 		DDB6EDD2254C9C0300156B01 /* Protocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6EDD1254C9C0300156B01 /* Protocol.framework */; };
 		DDB6EDD3254C9C0300156B01 /* Protocol.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6EDD1254C9C0300156B01 /* Protocol.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DDB6EE0A254D248F00156B01 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6EE09254D248F00156B01 /* Utils.framework */; };
@@ -50,6 +52,8 @@
 		DD505D56254C85CD002B87FE /* SPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPTests.swift; sourceTree = "<group>"; };
 		DD505D58254C85CD002B87FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD61DDAD254DEA7A00C320A8 /* 서울에서김서방찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "서울에서김서방찾기.swift"; sourceTree = "<group>"; };
+		DD9011592552CAB300A2146A /* 모의고사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모의고사.swift"; sourceTree = "<group>"; };
+		DD90116E2552D56B00A2146A /* 배열합치기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "배열합치기.swift"; sourceTree = "<group>"; };
 		DDB6EDD1254C9C0300156B01 /* Protocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Protocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB6EE09254D248F00156B01 /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFDCA5E254DDB2300E313E3 /* IH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				DD61DDAD254DEA7A00C320A8 /* 서울에서김서방찾기.swift */,
+				DD9011592552CAB300A2146A /* 모의고사.swift */,
+				DD90116E2552D56B00A2146A /* 배열합치기.swift */,
 			);
 			name = "프로그래머스";
 			path = "프로그래머스";
@@ -264,7 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD90115A2552CAB300A2146A /* 모의고사.swift in Sources */,
 				DD61DDAE254DEA7A00C320A8 /* 서울에서김서방찾기.swift in Sources */,
+				DD90116F2552D56B00A2146A /* 배열합치기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
