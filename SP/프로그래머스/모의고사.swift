@@ -8,7 +8,7 @@
 import Foundation
 import Protocol
 
-class 모의고사: Exem {
+class 모의고사: Exam {
     static func exemStart() {
         print(모의고사().solution([1,2,3,4,5]))
         print(모의고사().solution([1,3,2,4,2]))

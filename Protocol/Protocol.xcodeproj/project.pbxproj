@@ -10,7 +10,7 @@
 		DD61DDA1254DE90D00C320A8 /* ExemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61DDA0254DE90D00C320A8 /* ExemList.swift */; };
 		DD61DDA4254DE92600C320A8 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61DDA3254DE92600C320A8 /* BaseVC.swift */; };
 		DDB6EDC5254C9BEA00156B01 /* Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB6EDB7254C9BE900156B01 /* Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDB6EDD7254C9C2300156B01 /* Exem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6EDD6254C9C2300156B01 /* Exem.swift */; };
+		DDB6EDD7254C9C2300156B01 /* Exam.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6EDD6254C9C2300156B01 /* Exam.swift */; };
 		DDCDEC20254DDEB800683E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCDEC1F254DDEB800683E21 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -20,7 +20,7 @@
 		DDB6EDB4254C9BE900156B01 /* Protocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Protocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB6EDB7254C9BE900156B01 /* Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocol.h; sourceTree = "<group>"; };
 		DDB6EDB8254C9BE900156B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDB6EDD6254C9C2300156B01 /* Exem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exem.swift; sourceTree = "<group>"; };
+		DDB6EDD6254C9C2300156B01 /* Exam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exam.swift; sourceTree = "<group>"; };
 		DDCDEC1F254DDEB800683E21 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +57,7 @@
 				DDCDEC1F254DDEB800683E21 /* Main.storyboard */,
 				DDB6EDB7254C9BE900156B01 /* Protocol.h */,
 				DDB6EDB8254C9BE900156B01 /* Info.plist */,
-				DDB6EDD6254C9C2300156B01 /* Exem.swift */,
+				DDB6EDD6254C9C2300156B01 /* Exam.swift */,
 				DD61DDA0254DE90D00C320A8 /* ExemList.swift */,
 				DD61DDA3254DE92600C320A8 /* BaseVC.swift */,
 			);
@@ -147,7 +147,7 @@
 			files = (
 				DD61DDA1254DE90D00C320A8 /* ExemList.swift in Sources */,
 				DD61DDA4254DE92600C320A8 /* BaseVC.swift in Sources */,
-				DDB6EDD7254C9C2300156B01 /* Exem.swift in Sources */,
+				DDB6EDD7254C9C2300156B01 /* Exam.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

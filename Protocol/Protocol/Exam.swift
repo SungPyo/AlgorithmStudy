@@ -7,6 +7,6 @@
 
 import Foundation
 
-public protocol Exem: class {
+public protocol Exam: class {
     static func exemStart()
 }
