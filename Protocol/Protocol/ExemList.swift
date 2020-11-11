@@ -14,6 +14,7 @@ enum ExemList: String, CaseIterable {
     case 배열합치기
     case 피보나치함수
     case 타일채우기
+    case 엔으로표현
     
     func start(bundleID: String) {
         let bundle = Bundle(identifier: "com.castielticket.\(bundleID)")
