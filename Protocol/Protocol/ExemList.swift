@@ -12,7 +12,7 @@ enum ExemList: String, CaseIterable {
     case 서울에서김서방찾기
     case 모의고사
     case 배열합치기
-    case 피보나치_함수
+    case 피보나치함수
     case 타일채우기
     
     func start(bundleID: String) {
