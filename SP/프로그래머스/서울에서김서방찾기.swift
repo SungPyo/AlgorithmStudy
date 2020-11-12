@@ -8,7 +8,7 @@
 import Protocol
 
 class 서울에서김서방찾기: Exam {
-    static func exemStart() {
+    static func examStart() {
         print(서울에서김서방찾기().solution(["Jane", "Kim"]))
     }
     

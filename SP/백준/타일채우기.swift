@@ -8,7 +8,7 @@
 import Protocol
 
 class 타일채우기: Exam {
-    static func exemStart() {
+    static func examStart() {
         print(타일채우기().solution(["Jane", "Kim"]))
     }
     

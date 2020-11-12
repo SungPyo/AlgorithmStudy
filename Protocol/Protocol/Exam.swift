@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol Exam: class {
-    static func exemStart()
+    static func examStart()
 }

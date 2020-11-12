@@ -8,7 +8,7 @@
 import Protocol
 
 class 피보나치함수: Exam {
-    static func exemStart() {
+    static func examStart() {
         print(피보나치함수().solution(["Jane", "Kim"]))
     }
     
