@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4006FE46255D1CC600683232 /* 모의고사.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006FE45255D1CC600683232 /* 모의고사.swift */; };
+		4006FE53255D21A000683232 /* 피보나치함수.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006FE52255D21A000683232 /* 피보나치함수.swift */; };
+		4006FE69255D256E00683232 /* 서울에서김서방찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006FE68255D256E00683232 /* 서울에서김서방찾기.swift */; };
 		DDB6ED97254C89DF00156B01 /* JE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB6ED8D254C89DF00156B01 /* JE.framework */; };
 		DDB6ED9C254C89DF00156B01 /* JETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6ED9B254C89DF00156B01 /* JETests.swift */; };
 		DDB6ED9E254C89DF00156B01 /* JE.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB6ED90254C89DF00156B01 /* JE.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4006FE45255D1CC600683232 /* 모의고사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모의고사.swift"; sourceTree = "<group>"; };
+		4006FE52255D21A000683232 /* 피보나치함수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "피보나치함수.swift"; sourceTree = "<group>"; };
+		4006FE68255D256E00683232 /* 서울에서김서방찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "서울에서김서방찾기.swift"; sourceTree = "<group>"; };
 		DDB6ED8D254C89DF00156B01 /* JE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB6ED90254C89DF00156B01 /* JE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JE.h; sourceTree = "<group>"; };
 		DDB6ED91254C89DF00156B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,9 +56,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4080131B255D03FE0001C91B /* 백준 */ = {
+			isa = PBXGroup;
+			children = (
+				4006FE52255D21A000683232 /* 피보나치함수.swift */,
+			);
+			name = "백준";
+			path = "백준";
+			sourceTree = "<group>";
+		};
+		4080131C255D04040001C91B /* 프로그래머스 */ = {
+			isa = PBXGroup;
+			children = (
+				4006FE45255D1CC600683232 /* 모의고사.swift */,
+				4006FE68255D256E00683232 /* 서울에서김서방찾기.swift */,
+			);
+			name = "프로그래머스";
+			path = "프로그래머스";
+			sourceTree = "<group>";
+		};
 		DDB6ED83254C89DF00156B01 = {
 			isa = PBXGroup;
 			children = (
+				4080131C255D04040001C91B /* 프로그래머스 */,
+				4080131B255D03FE0001C91B /* 백준 */,
 				DDB6ED8F254C89DF00156B01 /* JE */,
 				DDB6ED9A254C89DF00156B01 /* JETests */,
 				DDB6ED8E254C89DF00156B01 /* Products */,
@@ -147,6 +174,7 @@
 				TargetAttributes = {
 					DDB6ED8C254C89DF00156B01 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 					};
 					DDB6ED95254C89DF00156B01 = {
 						CreatedOnToolsVersion = 12.1;
@@ -194,6 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4006FE46255D1CC600683232 /* 모의고사.swift in Sources */,
+				4006FE69255D256E00683232 /* 서울에서김서방찾기.swift in Sources */,
+				4006FE53255D21A000683232 /* 피보나치함수.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +372,7 @@
 		DDB6EDA2254C89DF00156B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P84LEHU55L;
@@ -357,6 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.castielticket.JE;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +398,7 @@
 		DDB6EDA3254C89DF00156B01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P84LEHU55L;
@@ -389,6 +423,7 @@
 		DDB6EDA5254C89DF00156B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84LEHU55L;
 				INFOPLIST_FILE = JETests/Info.plist;
@@ -407,6 +442,7 @@
 		DDB6EDA6254C89DF00156B01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84LEHU55L;
 				INFOPLIST_FILE = JETests/Info.plist;
