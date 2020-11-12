@@ -13,7 +13,7 @@ import Foundation
 import Protocol
 
 class 배열합치기: Exam {
-    static func exemStart() {
+    static func examStart() {
         let r = 배열합치기().solution(aArrayCount: 2, bArrayCount: 2, aArr: [4,7], bArr: [1])
     }
     

@@ -24,11 +24,11 @@ open class BaseVC: UIViewController {
 
 extension BaseVC: UITableViewDataSource {
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return ExemList.allCases.count
+        return ExamList.allCases.count
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let exem = ExemList.allCases[indexPath.row]
+        let exem = ExamList.allCases[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = exem.rawValue
         return cell
@@ -37,7 +37,7 @@ extension BaseVC: UITableViewDataSource {
 
 extension BaseVC: UITableViewDelegate {
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let exem = ExemList.allCases[indexPath.row]
+        let exem = ExamList.allCases[indexPath.row]
         exem.start(bundleID: bundleIdentifier)
     }
 }

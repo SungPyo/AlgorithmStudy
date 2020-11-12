@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ExemList: String, CaseIterable {
+enum ExamList: String, CaseIterable {
     case 테스트입니다_클릭해도_뭐_없어요
     case 서울에서김서방찾기
     case 모의고사
@@ -21,6 +21,6 @@ enum ExemList: String, CaseIterable {
         guard let vc = bundle?.classNamed("\(bundleID).\(self)") as? Exam.Type else {
             return print("\(bundleID)번들에 \(self).swift 파일이 없습니다.")
         }
-        vc.exemStart()
+        vc.examStart()
     }
 }
