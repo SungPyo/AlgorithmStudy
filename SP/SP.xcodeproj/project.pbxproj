@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DD21F954255BFFD600D85042 /* 피보나치함수.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD21F953255BFFD600D85042 /* 피보나치함수.swift */; };
 		DD21F957255C000F00D85042 /* 타일채우기.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD21F956255C000F00D85042 /* 타일채우기.swift */; };
+		DD43488425653E530083E86C /* 케이번째수.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43488325653E530083E86C /* 케이번째수.swift */; };
 		DD505D52254C85CD002B87FE /* SP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD505D48254C85CC002B87FE /* SP.framework */; };
 		DD505D57254C85CD002B87FE /* SPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD505D56254C85CD002B87FE /* SPTests.swift */; };
 		DD505D59254C85CD002B87FE /* SP.h in Headers */ = {isa = PBXBuildFile; fileRef = DD505D4B254C85CC002B87FE /* SP.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		DD21F953255BFFD600D85042 /* 피보나치함수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "피보나치함수.swift"; sourceTree = "<group>"; };
 		DD21F956255C000F00D85042 /* 타일채우기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "타일채우기.swift"; sourceTree = "<group>"; };
+		DD43488325653E530083E86C /* 케이번째수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "케이번째수.swift"; sourceTree = "<group>"; };
 		DD505D48254C85CC002B87FE /* SP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD505D4B254C85CC002B87FE /* SP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SP.h; sourceTree = "<group>"; };
 		DD505D4C254C85CC002B87FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				DD61DDAD254DEA7A00C320A8 /* 서울에서김서방찾기.swift */,
 				DD9011592552CAB300A2146A /* 모의고사.swift */,
 				DD90116E2552D56B00A2146A /* 배열합치기.swift */,
+				DD43488325653E530083E86C /* 케이번째수.swift */,
 			);
 			name = "프로그래머스";
 			path = "프로그래머스";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD43488425653E530083E86C /* 케이번째수.swift in Sources */,
 				DD90115A2552CAB300A2146A /* 모의고사.swift in Sources */,
 				DD61DDAE254DEA7A00C320A8 /* 서울에서김서방찾기.swift in Sources */,
 				DD90116F2552D56B00A2146A /* 배열합치기.swift in Sources */,
