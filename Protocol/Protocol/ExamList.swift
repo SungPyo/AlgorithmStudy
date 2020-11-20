@@ -16,6 +16,8 @@ enum ExamList: String, CaseIterable {
     case 타일채우기
     case 엔으로표현
     case 케이번째수
+    case 요세푸스문제
+    case 회사에있는사람
     
     func start(bundleID: String) {
         let bundle = Bundle(identifier: "com.castielticket.\(bundleID)")
